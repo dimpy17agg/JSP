@@ -7,12 +7,17 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<br>
+<h3>
 <%
 String name=request.getParameter("uname");
 out.print("Welcome "+ name);
 %>
-
-
+</h3>
+ <br><br> 
+ <!--  here we have not used the out.ptrint() instead we use expression tag to print -->
+<h4>
+<%= "welcome to jsp - "+ name %>
+</h4>
 </body>
 </html>
