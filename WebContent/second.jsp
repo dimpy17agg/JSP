@@ -1,5 +1,5 @@
 <%
 
 String name= (String)(session.getAttribute("user"));
-out.print("WELCOME TO SECOND PAGE!! ,"+name);
+out.print("WELCOME to second page!! ,"+name);
 %>
